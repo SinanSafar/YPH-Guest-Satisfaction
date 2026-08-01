@@ -462,11 +462,14 @@ const SEED_DATA = {"477915312": {"hotel": "AUHSY", "surveyDate": "2026-05-28T15:
    live/shared. Until then it runs in local-preview mode.
    ============================================================ */
 const FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-  projectId: "YOUR_PROJECT",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB4fmnPWS2caxyli-9aRxFvWNZeWmqf2nI",
+  authDomain: "yas-roster.firebaseapp.com",
+  databaseURL: "https://yas-roster-default-rtdb.firebaseio.com",
+  projectId: "yas-roster",
+  storageBucket: "yas-roster.firebasestorage.app",
+  messagingSenderId: "155609655910",
+  appId: "1:155609655910:web:dbcb9b9f48ff8580c69ba7",
+  measurementId: "G-HR6FC5XVNH"
 };
 const isFirebaseConfigured = FIREBASE_CONFIG.apiKey && !FIREBASE_CONFIG.apiKey.startsWith("YOUR_");
 let db = null;
